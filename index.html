@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crossroads Slideshow | Codrops</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/1.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Afghanistanveteraan</span>
+						<h2 class="content__item-header-title">Annelies Homma</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Ik dacht aan Jos ten Brinke die tijdens mijn uitzending in 2008 omkwam, en aan de 24 andere collega’s die in Afghanistan sneuvelden. Aan het offer dat zij gebracht hebben.
+
+							“Onlangs heb ik hen een brief geschreven, als persoonlijk afscheid. Ik overweeg die als afsluiting van mijn PTSS- traject achter te laten op het Ereveld in Loenen.”
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/2.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Cambodjaveteraan</span>
+						<h2 class="content__item-header-title">Cor van Alderwegen</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Ik was vol trots dat ik daar mocht staan en overdacht mijn uitzending; dat mijn eigen gezin in alle rust en vrede kon leven terwijl ik elders op missie was.
+
+							“Mijn schoonzoon en kleinzoon waren ook aanwezig op de Dam, ik dacht; nu geef ik echt iets aan hen door.”
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/3.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Afghanistanveteraan</span>
+						<h2 class="content__item-header-title">Cees Hesselink</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							“Het was dit jaar precies 10 jaar geleden dat ik in Afghanistan zat. 2008 was net het beroerdste jaar in Afghanistan: zo heb ik daar drie keer op de ramp gestaan, ook bij het afscheid van Dennis van Uhm en Mark Schouwink die door een bermbom om het leven waren gekomen.”
+
+							En ik dacht aan mijn schoonzus die aan ALS overleed terwijl ik op Kamp Holland zat.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/4.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Sinaïveteraan</span>
+						<h2 class="content__item-header-title">Henri Zwart</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							“Een groot deel van mijn leven ging door mijn hoofd.”
+
+							Ik dacht ook aan al die vriendschappen die ik als militair heb opgedaan en dan vooral aan een dienstmakker die vorig jaar is overleden.
+							
+							“Op uitzending in de Sinaï hebben wij veel samengewerkt en is hij een hele goede vriend van mij geworden.”
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/5.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Libanonveteraan</span>
+						<h2 class="content__item-header-title">Fred van der Ploeg</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Ik dacht aan mijn broer, die we vorig jaar begraven hebben.
+
+							“Dat ik ietwat lachend op de foto sta? Het is weliswaar een serieuze aangelegenheid maar ik vind dat je daar geen chagrijnig gezicht bij hoeft te trekken. Ons was ook op het hart gedrukt: ‘vergeet niet  te genieten, die twee minuten stilte zijn ook voor jullie zelf’.”
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">01</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/1.jpg);"></div>
+					</div>
+					<figcaption class="caption">Afghanistanveteraan</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">02</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/2.jpg);"></div>
+					</div>
+					<figcaption class="caption">Cambodjaveteraan</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">03</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/3.jpg);"></div>
+					</div>
+					<figcaption class="caption">Afghanistanveteraan</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">04</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/4.jpg);"></div>
+					</div>
+					<figcaption class="caption">Sinaïveteraan</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">05</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/5.jpg);"></div>
+					</div>
+					<figcaption class="caption">Libanonveteraan</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">Annelies</h3>
+						<h3 class="grid__item grid__item--title">Cor</h3>
+						<h3 class="grid__item grid__item--title">Cees</h3>
+						<h3 class="grid__item grid__item--title">Henri</h3>
+						<h3 class="grid__item grid__item--title">Fred</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<!-- <div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Crossroads Slideshow</h1>
+					<div class="frame__links">
+						<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+						<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+						<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+					</div>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div>/frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
